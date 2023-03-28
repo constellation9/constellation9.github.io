@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 title:  "Formal Guarantees of STAR"
 categories: jekyll update
 usemathjax: true
