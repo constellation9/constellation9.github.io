@@ -8,7 +8,7 @@ usemathjax: true
 We give a brief overview of the algorithms setup, encode, and decode used for specifying the STAR protocol [\[1\]](#references): a highly efficient $K$-TA scheme. The algorithmic description can be seen in Figure 1.
 
 ![Constellation instantiated with STAR](/assets/cons-star.jpg "Constellation instantiated with STAR")
-*Figure 1: Algorithmic description of Constellation with STAR.*
+<p style="text-align: center;"><i>Figure 1: Algorithmic description of Constellation with STAR.</i></p>
 
 **Public setup (setup)**. Setup for STAR includes specifying a threshold $K$ that will be used when encoding and decoding client measurements. The maximum lengths of such measurements and auxiliary data (specified by $v$ and $\hat{v}$, respectively) are made public, and data should be padded to this length during encoding. The resulting public parameters, $STAR.pp$, are made available to both the aggregation server and the clients.
 

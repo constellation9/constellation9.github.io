@@ -36,10 +36,7 @@ Let $S$ denote the service provider (or aggregation server), let $C_i$ denote on
   * Let $s = \Pi_{K,N}.share(r_1, r_2)$;
   * Let $\kappa = derive(r_1)$;
   * Let $c = ske.encrypt(\kappa, x_i \mathbin\Vert aux_{i})$.
-
-The function then outputs:
-
-$sbm_i = (ciph, sh, tag) = (c, s, r_3)$.
+  * Output: $sbm_i = (ciph, sh, tag) = (c, s, r_3)$.
 
 * $T \leftarrow STAR.decode(pp,[sbm_1,\ldots,sbm_N])$: This function is ran by the server $S$ and it involves the following steps:
   * partition client submissions into sets $I \subseteq [N]$, where for each $j \in I$ the value $tag_j = r_3$ is equivalent;
